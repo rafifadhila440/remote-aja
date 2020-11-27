@@ -1,0 +1,123 @@
+-----Siswa 1-----
+buka git bash
+buka git bash di folder proyek
+code .
+buat index.html
+git status
+git add .
+git commit -m "Menambahkan index.html"
+git status
+git log
+graph (ga akan bisa, harus di alias dulu)
+alias graph="git log --all --decorate --oneline --graph"
+graph
+git status
+clear (biar kosong)
+buat repo di github dgn nama yg sama dgn lokal
+isi deskripsi "Deskripsi remote-simulasi"
+
+setelah repo jadi
+scroll ke bawah, bagian "or push an existing repo..."
+copy script pertama yg "git remote add..." ke gitbash (sementara)
+
+cek dulu
+git remote (reaksinya ga ada/zonk)
+copy script pertama yg "git remote add..." ke gitbash (belum ada reaksi)
+git push -u origin master (yg bransh dilewat dulu)
+kalo ada notif login, login dulu, baru di close browsernya
+cek github (harusnya file index sudah ada)
+graph
+
+buat file about.html
+git status
+graph
+git add .
+clear
+graph
+git commit -m "Menambahkan file about.html"
+graph
+git status
+git push
+cek github
+graph
+git status
+clear
+-----Siswa 1-end-
+
+
+
+-----Siswa 2-----
+Buka repo di akun utama
+Lalu kita klik reponya
+Lakukan fork
+Hasil fork sudah ada
+
+git init dulu sebelum jalankan perintahnya
+
+git clone
+copy https hasil fork
+klik "code"
+ambil httpsnya + copy
+git clone "https"
+git remote
+git remote -v
+cd "nama repo lokal yg sudah di clone"
+clear (biar rapi)
+git remote (nanti ada origin)
+git status (branch sudah update)
+alias graph="git log --all --decorate --oneline --graph"
+graph
+git remote (nanti ada origin)
+clear
+git remote -v
+git remote add nama username master dan link https
+git remote (ada 2, nama username original + origin)
+git remote -v
+graph
+clear
+graph lagi
+-----Siswa 2-end-
+
+
+
+-----Siswa 1-----
+Buat file contact.html di text editor
+git status  
+git add .
+git commit -m "Menambahkan file contact.html"
+git status (commit kita mendahului origin)
+git push
+cek github
+-----Siswa 1-end-
+
+
+
+-----Siswa 2-----
+clear
+git status
+git branch (ada branch master)
+git remote (ada 2, nama username original + origin)
+git remote -v
+clear
+graph
+git remote (ada 2)
+git fetch (username dari repo original)
+git status
+graph
+clear
+graph
+git merge username dari repo original/branch
+contoh
+git merge rafifadhila440/master
+graph
+git status
+clear
+git push -u origin master
+nnti disuruh login, login dulu, nnti muncul borwser login
+setelah login browser bisa di close
+
+graph
+git status
+cek repo
+
+-----Siswa 2-end-
